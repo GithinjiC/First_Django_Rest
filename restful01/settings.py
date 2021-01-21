@@ -120,7 +120,7 @@ STATIC_URL = '/static/'
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # below lines create circular dependency between module and class loaded by settings
-import sys
+# import sys
 
 # if BASE_DIR not in sys.path:
 #     sys.path.append(BASE_DIR)
